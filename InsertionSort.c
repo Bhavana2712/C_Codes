@@ -2,7 +2,7 @@
 int main(){ //starting
 
 
-    int arr[100],n,temp,min,no,j;
+    int arr[100],n,temp,min,no,i,j;
     scanf("%d",&n);
 
     for (int i = 0; i < n; i++)
@@ -24,7 +24,7 @@ int main(){ //starting
     }
 
 
-    // selectionsort algo
+    // insertionsort algo
 
 
     for (int i = 1; i <=n-1; i++)
